@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+.venv/
+
+.env
+.env.*
+!.env.example
+
+.pytest_cache/
+
+*.log
+server*.log
+cloudflared*.log
+stdout*.txt
+stderr*.txt
+
+node_modules/
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Backups
+*.bak
+*.backup
+*.sql.bak
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
